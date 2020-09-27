@@ -1,0 +1,22 @@
+Variables: son lugares donde podemos almacenar un dato para luego utilizarlo mas tarde. Esos datos pueden
+ser de distintos tipos y formas. Por ejemplo, cuando creamos una variable podemos meter dentro de ella
+nombres, textos, numeros y muchas cosas.
+
+Strings: es un tipo de valor que puede tomar una variable. Solo se pueden poner textos y se escriben entre comillas.
+Es decir: cuando creamos una variable string, estamos queriendo escribir texto, nombres, descripciones, etc.
+
+Funciones: son secciones de código que podemos utilizar para no reescribir tantas veces algo que queremos hacer
+mas de una vez. Por ejemplo: si queremos hacer varios cálculos del mismo tipo, por ejemplo, una multiplicación,
+podemos usar una función para que cuando terminemos de utilizar la función, volver a llamarla y agregarle números
+nuevos o los mismos. Así, ahorraríamos tiempo y espacio. Dentro de las funciones encontramos a los argumentos.
+Los argumentos son los datos que ingresamos para comparar. Por ejemplo, en una función de multiplicación, a la que
+llamaremos F(), si decimos que F() {A*B}, Los argumentos de F van entre paréntesis y toman el valor que va en las llaves 
+Si los argumentos de A y B fueran 2 y 3, tomarían esos valores respectivamente. Y la multiplicación se guardaría en una
+variable. Return es una declaración nos sirve para devolver un valor que está dentro de una función, pero fuera
+de ella. Si utilizamos return tenemos que saber que la función detiene lo que estaba haciendo para devolver el resultado.
+
+Las declaraciones if son secciones de código que se ejecutan, o no, cuando se cumple con una condición. Por ejemplo:
+si queremos que la consola nos devuelva que un celular está caro si el precio del celular supera los $20.000, podemos
+utilizar un if para crear una condición que nos muestre el mensaje "El celular está caro" si supera los $20.000.
+
+Los valores booleanos son tipos de datos que solamente pueden tomar dos valores: true o false, 0 o 1. 
