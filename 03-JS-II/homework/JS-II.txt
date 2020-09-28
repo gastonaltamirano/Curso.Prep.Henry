@@ -1,0 +1,16 @@
+For: es un ciclo o bucle. Es decir, es un sector de código que se va a repetir mientras una condición se cumpla
+o, en otras palabras, su valor booleano sea true.
+
+&&: junto con || y ! , son operadores lógicos. Significa "y". Su función es analizar la veracidad de una afirmación
+al comparar sus dos expresiones. Por ejemplo, decimos que una expresión es verdadera si 2 === 1+1 && (y) 3 === 1+2.
+Esta comparación nos daría como resultado true, porque ambas condiciones son verdaderas. && nos devuelve true solo
+cuando las dos comparaciones son verdaderas. Otro ejemplo, que nos de false, sería: 2 === 1+1 && 3 === 1+1. Nos
+daría false, porque aunque una de las dos expresiones es verdadera, la otra es falsa.
+
+||: Significa "o". Como &&, analiza las dos expresiones. La diferencia es que en ||, cuando una de las dos
+es verdadera, no importa si la otra es falsa, nos daría como resultado true. Ejemplo true: 2+3 === 5 || 1+1 === 3.
+Aunque una de las dos expresiones es falsa, el resultado sería true porque la otra es verdadera.
+
+!: es un operador que nos invierte el valor siempre que lo encontremos. Si el resultado de la expresion nos da false
+este operador nos invertiría el valor para que sea true. Lo mismo al revés, si el resultado es true, nos invierte
+el valor y daría false.
