@@ -1,0 +1,23 @@
+Objetos: son como las matrices, la diferencia es que en estas el identificador era un índice y en los objetos es una
+palabra clave. A esa clave, al igual que las matrices, se les asigna un valor. Los objetos contienen mucha informacion
+de una sola cosa, es decir que los valores que tomen las claves no tienen que estar relacionados entre si.
+
+Propiedades: son los atributos que puede tener un objeto. Es decir: un objeto llamado 'perro-mascota' puede tener 
+varios atributos como: nombre, tamaño, peso; también podemos asignarle atributos como: ladramucho: true,false
+puede tomar valores true o false porque puede ladrar mucho o no. True o false son los valores de los atributos.
+Así como a la propiedad nombre podemos asignarle el valor firulays. Var Perro = { nombre: Firulays }
+
+Métodos: son funciones que están dentro de un objeto. La forma en que se presenta un método dentro de un objeto es a
+través de una propiedad o atributo. Ejemplo: Var Objeto = { Func: function() {console.log ('Esto es un ejemplo')
+
+For in: es parecido al for, pero este bucle sirve para recorrer los objetos ya que, como dijimos, los mismos no
+tienen índices. Como sabemos el for que vimos se movía dentro de las matrices a través de los índices. Usamos
+esta clave escribiendo: for(var unavariable in nombredelobjetoarecorrer) {}
+
+Notación de puntos: es la forma de acceder al valor un atributo de un objeto mas sencilla, solo ponemos la palabra
+clave, seguida de un punto y el atributo del cual queremos conocer el valor. Ej: nombreobjeto.atributo o, en el 
+ejemplo del perro: perro.nombre; //Firulays
+
+Notación de corchetes: podemos acceder al valor de un objeto usando corchetes, de la misma forma que una matriz.
+Solo que para los objetos, como no tenemos índices, la clave debería tener comillas y dentro de ellas poner
+la palabra que usamos para definir al atrubuto. Por ej: objeto['atributo'] o: perro['nombre'].
