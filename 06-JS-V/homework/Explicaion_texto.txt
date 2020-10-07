@@ -1,0 +1,9 @@
+Prototype: son las funciones heredadas por las clases superiores de un objeto. Por ejemplo: Si declaramos una clase
+persona, podemos darle los parametros: nombre, edad y altura. Y además podemos decir que tiene una funcion que se
+llama saludar() que devuelve: {'Hola! Mi nombre es ' + nombre}. Luego creamos una clase dentro de persona que se
+llama empleado, que tiene parametros como: sueldo, empleo. Como empleado tiene una clase superior que es persona,
+el mismo podría acceder a la función saludar si accediera a ella mediante el prototype.
+
+Constructors: son las plantillas que utilizamos para crear objetos y clases menores. Como mencione en prototype,
+una clase podría crear un objeto o una clase menor. Esto se hace mediante los constructores, que son funciones 
+que toman la plantilla y la utilizan para crear una clase nueva.
