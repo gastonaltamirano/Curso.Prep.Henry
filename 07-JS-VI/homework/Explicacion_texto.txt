@@ -1,0 +1,16 @@
+Callback: es una función que se llama dentro de un argumento de otra función. Es decir, supongamos que queremos
+aceptar o rechazar una taza de te a una persona que se llama 'Gastón'. Tendríamos que hacer dos funciones con el
+argumento Gastón y decirle 'No, gracias!' o 'Si, gracias!, una para rechazar y otra para aceptar.
+function Aceptar(nombre) { return 'Si, gracias ' + nombre + '!' }
+function Rechazar(nombre) { return 'No, gracias ' + nombre + '!' }
+
+Luego llamamos a la función, en este caso Aceptar: Aceptar('Gastón') y nos devuelve: 'Si, gracias Gastón!'
+
+Para utilizar un callback (a quien llamaremos cb) tenemos que crear otra funcion, a la que llamaremos respuestaTe.
+
+function respuestaTe(nombre, cb) { return cb(nombre); }
+
+Ahora podemos utilizar la funcion respuestaTe y utilizar un callback en ella.
+
+respuestaTe('Gaston', Aceptar); // Esto nos devolvería: 'Si, gracias Gastón!'
+respuestaTe('Gabriel', Rechazar); // Esto nos devuelve: 'No, gracias Gabriel!
