@@ -1,0 +1,46 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+
+body{
+    background: burlywood;
+}
+
+#tituloCv{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: verdana;
+}
+
+#cv1{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+img{
+    width:200px;
+    display: block;
+    margin: auto;
+}
+
+.contenido{
+    text-align: center;
+    color: black;
+    background: ivory;
+    font-size: 14px;
+    font-family: verdana;
+    padding: 0px;
+    margin: 50px;
+}
+
+.pregunta{
+    text-align: center;
+}
+
+.lista{
+    list-style: none;
+}
